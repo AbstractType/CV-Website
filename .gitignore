@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+.vite/
+.env
+.env.local
+.env.*.local
+*.log
+
+# Personal source files (LinkedIn PDF exports, draft CVs, etc.).
+# Only ignores PDFs at the repo root — put any deployable PDFs (e.g. a public
+# "Download CV" file) under public/ where Vite will serve them.
+/*.pdf
+Profile.pdf

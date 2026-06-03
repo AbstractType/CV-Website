@@ -1,0 +1,188 @@
+import type { CV } from '../types/cv';
+
+// Content for the CV site. Edit only this file to update what's shown.
+// Structure is defined in ../types/cv.ts.
+export const cv: CV = {
+  name: 'Vladyslav Atamanyuk',
+  title: 'Software Engineer',
+  tagline:
+    'Backend-leaning software developer working across fintech and govtech.',
+  about:
+    'Software Developer currently working at Walkers in London. ' +
+    "I've spent several years building services across the fintech and GovTech " +
+    "industries, and I'm looking to bring my skills to the next level.",
+  location: 'London, United Kingdom',
+  email: 'vladyslav.atamanyuk@gmail.com',
+  languages: ['English', 'Ukrainian'],
+  links: {
+    linkedin: 'https://www.linkedin.com/in/vladyslav-atamanyuk-523375a0/',
+    github: 'https://github.com/AbstractType',
+  },
+  experience: [
+    {
+      company: 'Walkers',
+      role: 'Software Developer',
+      start: 'Feb 2023',
+      end: 'Present',
+      location: 'London, United Kingdom',
+      bullets: [
+        'Current role — details available on request.',
+      ],
+      tech: ['TypeScript', 'AWS Lambda', 'DynamoDB'],
+    },
+    {
+      company: '118 118 Money',
+      role: 'Developer',
+      start: 'Sep 2022',
+      end: 'Feb 2023',
+      location: 'London, United Kingdom',
+      bullets: [
+        'High Risk Account Blocking — shipped four AWS Lambda functions (in a pair) to minimise costs when a customer became high-risk, preventing further debt exposure.',
+        'LTC Offers — investigated and fixed a known bug in a business-critical feature, documenting the cross-system flow that was previously undocumented.',
+        'Datadog Logs — added observability across the stack ahead of a planned change, wiring logs and success/failure metrics throughout.',
+      ],
+      tech: [
+        'TypeScript',
+        '.NET Core',
+        'AWS Lambda',
+        'AWS SQS',
+        'DynamoDB',
+        'Serverless Framework',
+        'Datadog',
+      ],
+    },
+    {
+      company: 'Dojo (a Paymentsense brand)',
+      role: 'Software Engineer',
+      start: 'Sep 2021',
+      end: 'Sep 2022',
+      location: 'London, United Kingdom',
+      bullets: [
+        'Communications System — built the communications.core / SMS / email / data-integration platform (team of four) using the aggregate pattern; scaled to 1,000+ emails/day.',
+        'Instant Transfers Webhook — automated activation/deactivation across several APIs and queues, including custom auth for an externally-facing endpoint, deployed via GCP.',
+      ],
+      tech: ['.NET 6', 'GCP', 'MongoDB', 'Google Pub-Sub', 'Helm'],
+    },
+    {
+      company: 'Liberis',
+      role: 'Full-stack Developer',
+      start: 'May 2019',
+      end: 'Aug 2021',
+      location: 'Hammersmith, London',
+      bullets: [
+        'Marketplace API — expanded the partner-facing API that delivers tailored adverts; decoupled Offers from the core API and shipped quality-of-life improvements.',
+        'Splits Hub — designed, coded and deployed (team of five) an ecosystem that automatically processes splits for partners, across five solutions and a message queue.',
+        'Offers API — extracted offers handling into its own API plus a daily background service that pulls from the data warehouse and reshapes data for the offers DB.',
+        'Helm + Azure Pipelines — owned chart-based Kubernetes deployments and the CI/CD pipeline.',
+      ],
+      tech: [
+        '.NET Core',
+        'C#',
+        'SQL',
+        'Kubernetes',
+        'Helm',
+        'Azure CI/CD',
+        'RabbitMQ',
+        'JWT',
+      ],
+    },
+    {
+      company: 'London Borough of Hackney',
+      role: 'Application Developer',
+      start: 'May 2017',
+      end: 'Apr 2019',
+      location: 'Hackney, London',
+      bullets: [
+        'Income Collection API — built the back-end API integrating with Civica web-services as part of the move from a monolith to a bespoke microservice.',
+        'Reactive Repairs Form — designed, coded and deployed a workflow-heavy form for Town Hall Maintenance & Facilities, with internal and external versions that talk to contractors.',
+        'Reactive Repairs Dashboard — built an analytics + ticket-management tool for the Town Hall repairs teams.',
+      ],
+      tech: [
+        '.NET Core',
+        'C#',
+        'JavaScript',
+        'SQL',
+        'AWS EC2',
+        'Docker',
+        'CircleCI',
+      ],
+    },
+    {
+      company: 'London Borough of Hackney',
+      role: 'Student Developer',
+      start: 'Jul 2016',
+      end: 'May 2017',
+      location: 'London, United Kingdom',
+      bullets: [
+        'HR Form Suite — upgraded and fixed council-wide HR forms used by managers, directors and staff for holidays, access passes and similar workflows.',
+        'HR Dashboard — shipped new forms and managed the workflow engine for approving actions like creating positions or changing working patterns.',
+      ],
+      tech: ['C#', '.NET 4', 'JavaScript', 'SQL'],
+    },
+    {
+      company: 'Asda',
+      role: 'Process Associate',
+      start: 'Oct 2014',
+      end: 'Jun 2016',
+      bullets: ['Operations role while studying.'],
+    },
+    {
+      company: 'VP Electrical Services Ltd',
+      role: 'Administrator',
+      start: 'Jan 2013',
+      end: 'Sep 2014',
+      bullets: ['Administrative role prior to software career.'],
+    },
+  ],
+  skills: [
+    {
+      name: 'Languages',
+      items: ['TypeScript', 'JavaScript', 'C#', 'SQL'],
+    },
+    {
+      name: 'Backend & Frameworks',
+      items: ['.NET 6', '.NET Core', 'ASP.NET MVC', 'Serverless Framework'],
+    },
+    {
+      name: 'Cloud & DevOps',
+      items: [
+        'AWS Lambda',
+        'AWS SQS',
+        'AWS EC2',
+        'Google Cloud Platform',
+        'Microsoft Azure',
+        'Kubernetes',
+        'Helm',
+        'Docker',
+        'Azure Pipelines',
+        'CircleCI',
+      ],
+    },
+    {
+      name: 'Data & Observability',
+      items: [
+        'DynamoDB',
+        'MongoDB',
+        'SQL Server',
+        'RabbitMQ',
+        'Google Pub-Sub',
+        'Datadog',
+        'JWT',
+      ],
+    },
+  ],
+  education: [
+    {
+      school: 'City, University of London',
+      degree: "BSc, Computer Science (Computer Programming)",
+      start: '2015',
+      end: '2019',
+    },
+    {
+      school: 'Redbridge College',
+      degree: 'HNC, Computing & Systems Development',
+      start: '2014',
+      end: '2015',
+    },
+  ],
+};

@@ -6,10 +6,10 @@ export const cv: CV = {
   name: 'Vladyslav Atamanyuk',
   title: 'Software Engineer',
   tagline:
-    'Backend-leaning software developer working across fintech and govtech.',
+    'Backend developer in London — currently legaltech, with a background in fintech and govtech.',
   about:
-    'Software Developer currently working at Walkers in London. ' +
-    "I've spent several years building services across the fintech and GovTech " +
+    'Software Developer at Walkers, an offshore law firm in London. ' +
+    "Several prior years building services across the fintech and GovTech " +
     "industries, and I'm looking to bring my skills to the next level.",
   location: 'London, United Kingdom',
   email: 'vladyslav.atamanyuk@gmail.com',
@@ -26,9 +26,23 @@ export const cv: CV = {
       end: 'Present',
       location: 'London, United Kingdom',
       bullets: [
-        'Current role — details available on request.',
+        'Document Drafter — current focus; built from scratch as a .NET 9 platform of two minimal-API REST services plus a legacy integration codebase. Adopted the new OpenAPI tooling in place of Swagger.',
+        'Document Drafter — owned a large chunk of the CI/CD: Azure YAML pipelines, Key Vault, Azure services, Application Insights, plus the migration from MongoDB to SQL as the data store.',
+        'Project360 — shipped new widgets and dashboard updates to the legacy C# / SQL monolith that lawyers and business users use to view data and track work. Uses Dapper for data access and DBUP for DB migrations.',
       ],
-      tech: ['TypeScript', 'AWS Lambda', 'DynamoDB'],
+      tech: [
+        'C#',
+        '.NET 9',
+        'Minimal API',
+        'OpenAPI',
+        'Dapper',
+        'DBUP',
+        'SQL',
+        'MongoDB',
+        'Azure Pipelines',
+        'Azure Key Vault',
+        'Application Insights',
+      ],
     },
     {
       company: '118 118 Money',
@@ -141,7 +155,17 @@ export const cv: CV = {
     },
     {
       name: 'Backend & Frameworks',
-      items: ['.NET 6', '.NET Core', 'ASP.NET MVC', 'Serverless Framework'],
+      items: [
+        '.NET 9',
+        '.NET 6',
+        '.NET Core',
+        'Minimal API',
+        'OpenAPI',
+        'ASP.NET MVC',
+        'Dapper',
+        'DBUP',
+        'Serverless Framework',
+      ],
     },
     {
       name: 'Cloud & DevOps',
@@ -151,10 +175,11 @@ export const cv: CV = {
         'AWS EC2',
         'Google Cloud Platform',
         'Microsoft Azure',
+        'Azure Pipelines',
+        'Azure Key Vault',
         'Kubernetes',
         'Helm',
         'Docker',
-        'Azure Pipelines',
         'CircleCI',
       ],
     },
@@ -167,6 +192,7 @@ export const cv: CV = {
         'RabbitMQ',
         'Google Pub-Sub',
         'Datadog',
+        'Application Insights',
         'JWT',
       ],
     },
